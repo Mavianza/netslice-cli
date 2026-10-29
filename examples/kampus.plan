@@ -1,0 +1,5 @@
+# Jumlah host mencakup gateway jika jaringan membutuhkan gateway.
+# Nama segmen = jumlah host
+Laboratorium = 60
+Kelas = 30
+Server = 12

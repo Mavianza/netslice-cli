@@ -1,0 +1,88 @@
+{
+  "schemaVersion": 1,
+  "command": "plan",
+  "base": {
+    "cidr": "192.168.10.0/24",
+    "network": "192.168.10.0",
+    "prefix": 24,
+    "mask": "255.255.255.0",
+    "wildcard": "0.0.0.255",
+    "lastAddress": "192.168.10.255",
+    "broadcast": "192.168.10.255",
+    "firstHost": "192.168.10.1",
+    "lastHost": "192.168.10.254",
+    "totalAddresses": 256,
+    "usableHosts": 254,
+    "kind": "lan"
+  },
+  "summary": {
+    "requestedHosts": 102,
+    "allocatedAddresses": 112,
+    "allocatedUsableHosts": 106,
+    "spareUsableHosts": 4,
+    "freeAddresses": 144
+  },
+  "allocations": [
+    {
+      "name": "Laboratorium",
+      "requestedHosts": 60,
+      "spareUsableHosts": 2,
+      "subnet": {
+        "cidr": "192.168.10.0/26",
+        "network": "192.168.10.0",
+        "prefix": 26,
+        "mask": "255.255.255.192",
+        "wildcard": "0.0.0.63",
+        "lastAddress": "192.168.10.63",
+        "broadcast": "192.168.10.63",
+        "firstHost": "192.168.10.1",
+        "lastHost": "192.168.10.62",
+        "totalAddresses": 64,
+        "usableHosts": 62,
+        "kind": "lan"
+      }
+    },
+    {
+      "name": "Kelas",
+      "requestedHosts": 30,
+      "spareUsableHosts": 0,
+      "subnet": {
+        "cidr": "192.168.10.64/27",
+        "network": "192.168.10.64",
+        "prefix": 27,
+        "mask": "255.255.255.224",
+        "wildcard": "0.0.0.31",
+        "lastAddress": "192.168.10.95",
+        "broadcast": "192.168.10.95",
+        "firstHost": "192.168.10.65",
+        "lastHost": "192.168.10.94",
+        "totalAddresses": 32,
+        "usableHosts": 30,
+        "kind": "lan"
+      }
+    },
+    {
+      "name": "Server",
+      "requestedHosts": 12,
+      "spareUsableHosts": 2,
+      "subnet": {
+        "cidr": "192.168.10.96/28",
+        "network": "192.168.10.96",
+        "prefix": 28,
+        "mask": "255.255.255.240",
+        "wildcard": "0.0.0.15",
+        "lastAddress": "192.168.10.111",
+        "broadcast": "192.168.10.111",
+        "firstHost": "192.168.10.97",
+        "lastHost": "192.168.10.110",
+        "totalAddresses": 16,
+        "usableHosts": 14,
+        "kind": "lan"
+      }
+    }
+  ],
+  "freeCidrs": [
+    "192.168.10.112/28",
+    "192.168.10.128/25"
+  ]
+}

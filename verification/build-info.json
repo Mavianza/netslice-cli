@@ -1,0 +1,22 @@
+{
+  "application": "NetSlice",
+  "version": "1.0.0",
+  "targetJava": 17,
+  "jarSha256": "40443de16b4c00564b2edd8b84706e47988dcd6232eafe9193327304e47c534e",
+  "javaTests": {
+    "passed": 31,
+    "failed": 0,
+    "randomPlanIterationsWithinPropertyTest": 300
+  },
+  "independentCrosscheck": {
+    "status": "passed",
+    "oracle": "Python standard library ipaddress",
+    "pythonVersion": "3.12.14",
+    "randomSeed": 20261029,
+    "infoCases": 100,
+    "planCases": 40,
+    "validPlans": 17,
+    "correctlyRejectedPlans": 23,
+    "totalCases": 140
+  }
+}
